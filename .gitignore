@@ -1,0 +1,108 @@
+# ---------------------------------------------------------------
+# macOS
+# ---------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ---------------------------------------------------------------
+# Editors / IDEs
+# ---------------------------------------------------------------
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+*.swp
+*.swo
+*~
+
+# ---------------------------------------------------------------
+# Node / TypeScript
+# ---------------------------------------------------------------
+node_modules/
+.pnpm-store/
+.pnp
+.pnp.*
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------------------------------------------------------------
+# Build output
+# ---------------------------------------------------------------
+dist/
+build/
+out/
+.output/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+*.tgz
+*.local
+
+# ---------------------------------------------------------------
+# Environment / secrets
+# ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ---------------------------------------------------------------
+# Tests & reports
+# ---------------------------------------------------------------
+test-results/
+playwright-report/
+blob-report/
+.nyc_output/
+*.lcov
+bench/*.json
+!bench/*.baseline.json
+
+# ---------------------------------------------------------------
+# Caches / tooling
+# ---------------------------------------------------------------
+.turbo/
+.cache/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.vite/
+vitest.config.*.timestamp-*
+
+# ---------------------------------------------------------------
+# Logs & temp
+# ---------------------------------------------------------------
+*.log
+logs/
+tmp/
+temp/
+.scratch/
+
+# ---------------------------------------------------------------
+# Local services & data (docker, postgres, fixtures)
+# ---------------------------------------------------------------
+.docker/
+infra/data/
+infra/volumes/
+*.sql.gz
+*.dump
+fixtures/generated/
+*.ndjson
+!fixtures/fixtures.small.ndjson
+
+# ---------------------------------------------------------------
+# OS-level junk that escapes the patterns above
+# ---------------------------------------------------------------
+Thumbs.db
+desktop.ini
